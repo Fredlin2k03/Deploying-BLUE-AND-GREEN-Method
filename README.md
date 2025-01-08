@@ -1,4 +1,8 @@
-# Deploying-BLUE-AND-GREEN-Method
+Project URL
+https://github.com/Fredlin2k03/Deploying-BLUE-AND-GREEN-Method
+
+
+# Deploying-BLUE-AND-GREEN-Method 
 # Blue-Green Deployment with Docker Compose
 
 This project demonstrates a Blue-Green Deployment strategy for a simple containerized web application using Docker Compose. The goal is to deploy the next version of the application in a separate container and switch traffic only when the new version is ready. Additionally, this setup simulates a basic CI/CD pipeline with Docker Compose.
