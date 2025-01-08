@@ -24,4 +24,13 @@ Clone this repository to your local machine or create a new directory for the pr
 
 ```bash
 git clone <your-repository-url>
-cd <your-repository-directory>
+cd <your-repository-directo
+2. Create Dockerfile
+Create a Dockerfile to define the application container. The sample file below sets up a Python Flask app.
+3. Create Docker Compose File
+Create the docker-compose.yml file for defining the services (app and test).
+4. Build and Run the Application
+Once the Dockerfile and docker-compose.yml are set up, run the following command to build and start the services:
+5. Verify the Deployment
+Visit http://localhost:5000 in your browser. You should see the web app's "Hello, World!" response.
+
