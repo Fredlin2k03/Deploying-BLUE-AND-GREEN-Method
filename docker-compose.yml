@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+  test:
+    image: curlimages/curl:latest
+    depends_on:
+      - web
+    entrypoint: ["curl", "--fail", "http://web:5000"]
